@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="./js.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div id="forms">
+			<h1>Formázza meg tetszőleges karakterét!</h1>
+			<form>
+				<label for="gender">Nem:</label>
+				<select name="gender" id="gender-input">
+					<option value="" disabled selected>Válasszon</option>
+					<option id="male" value="male">Férfi</option>
+					<option id="female" value="female">Nő</option>
+				</select> <br>
+				<label for="race">Faj:</label>
+				<select name="race" id="race-input" disabled>
+					<option value="" disabled selected>Válasszon</option>
+					<option id="human" value="-human">Ember</option>
+					<option id="fairy" value="-fairy">Tündér</option>
+					<option id="orc" value="-orc">Ogre</option>
+				</select> <br>
+				<label for="class">Típus:</label>
+				<select name="class" id="class-input" disabled>
+					<option value="" disabled selected>Válasszon</option>
+					<option id="warrior" value="-knight">Harcos</option>
+					<option id="magician" value="-druid">Mágus</option>
+					<option id="tank" value="-tank">Védelmező</option>
+				</select> <br>
+			</form>
+		</div>
+		<div id="chars">
+			<h1>Karakterkép:</h1>
+			<div id="bigPic"></div>
+			<div id="symbols">
+				<div id="first-sym">
+				</div>
+				<div id="second-sym">
+				</div>
+				<div id="third-sym">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

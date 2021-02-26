@@ -1,0 +1,73 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+form {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#forms {
+	width: 50%;
+}
+
+#chars {
+	width: 50%;
+	#char-image {
+		position: relative;
+		justify-content: center;
+	}
+	#symbols {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		transform: translateX(-50%);
+		left: 50%;
+		width: 175px;
+		#first-sym {
+			width: 50px;
+			height: 50px;
+			margin: 0 2% 0 2%;
+		}
+		#second-sym {
+			width: 50px;
+			height: 50px;
+			margin: 0 2% 0 2%;
+		}
+		#third-sym {
+			width: 50px;
+			height: 50px;
+			margin: 0 2% 0 2%;
+		}
+	}
+}
+
+.char-pic {
+	position: absolute;
+	left: 50%;
+	height: 500px;
+	visibility: hidden;
+}
+
+
+.sym-pic {
+	height: 50px;
+	position: absolute;
+}
+
+.visibleImage {
+	visibility: visible;
+}
+
+#bigPic {
+	#bigCharPic{
+		height: 500px;
+		display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	}
+}
